@@ -16,6 +16,8 @@
 		04B94C9E1C04F9CE00C2D44E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B94C9C1C04F9CE00C2D44E /* LaunchScreen.storyboard */; };
 		04B94CA91C04F9CE00C2D44E /* Space_RunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B94CA81C04F9CE00C2D44E /* Space_RunTests.swift */; };
 		04B94CB41C04F9CE00C2D44E /* Space_RunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B94CB31C04F9CE00C2D44E /* Space_RunUITests.swift */; };
+		04EB56F71C0501FD0026D113 /* asteroid.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB56F51C0501FD0026D113 /* asteroid.png */; };
+		04EB56F81C0501FD0026D113 /* photon.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB56F61C0501FD0026D113 /* photon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		04B94CAF1C04F9CE00C2D44E /* Space RunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Space RunUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B94CB31C04F9CE00C2D44E /* Space_RunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Space_RunUITests.swift; sourceTree = "<group>"; };
 		04B94CB51C04F9CE00C2D44E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EB56F51C0501FD0026D113 /* asteroid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asteroid.png; sourceTree = "<group>"; };
+		04EB56F61C0501FD0026D113 /* photon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,8 @@
 				04B94C951C04F9CD00C2D44E /* GameViewController.swift */,
 				04B94C971C04F9CD00C2D44E /* Main.storyboard */,
 				04B94C9A1C04F9CD00C2D44E /* Assets.xcassets */,
+				04EB56F51C0501FD0026D113 /* asteroid.png */,
+				04EB56F61C0501FD0026D113 /* photon.png */,
 				04B94C9C1C04F9CE00C2D44E /* LaunchScreen.storyboard */,
 				04B94C9F1C04F9CE00C2D44E /* Info.plist */,
 			);
@@ -238,7 +244,9 @@
 				04B94C921C04F9CD00C2D44E /* GameScene.sks in Resources */,
 				04B94C9E1C04F9CE00C2D44E /* LaunchScreen.storyboard in Resources */,
 				04B94C9B1C04F9CD00C2D44E /* Assets.xcassets in Resources */,
+				04EB56F71C0501FD0026D113 /* asteroid.png in Resources */,
 				04B94C991C04F9CD00C2D44E /* Main.storyboard in Resources */,
+				04EB56F81C0501FD0026D113 /* photon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,6 +502,7 @@
 				04B94CBA1C04F9CE00C2D44E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04B94CBB1C04F9CE00C2D44E /* Build configuration list for PBXNativeTarget "Space RunTests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +511,7 @@
 				04B94CBD1C04F9CE00C2D44E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04B94CBE1C04F9CE00C2D44E /* Build configuration list for PBXNativeTarget "Space RunUITests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +520,7 @@
 				04B94CC01C04F9CE00C2D44E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
